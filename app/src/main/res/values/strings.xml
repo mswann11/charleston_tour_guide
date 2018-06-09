@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="category_eat">Eat</string>
+    <string name="category_play">Play</string>
+    <string name="category_stay">Stay</string>
+    <string name="category_shop">Shop</string>
+    <string name="category_tour">Tour</string>
+    <string name="category_go">Go</string>
+    <string name="wentworth_address">149 Wentworth Street</string>
+</resources>

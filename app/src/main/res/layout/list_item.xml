@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="@color/background">
+
+    <RelativeLayout
+        android:id="@+id/item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:animateLayoutChanges="true"
+        android:layout_marginTop="24dp">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="#262626"
+            android:drawableRight="@drawable/ic_expand_more"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Wentworth Mansion"
+            android:textColor="#FFF"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/border"
+            android:layout_width="300dp"
+            android:layout_height="0.75dp"
+            android:layout_below="@id/name"
+            android:layout_centerHorizontal="true"
+            android:background="#FFF" />
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/border"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="true"
+            android:src="@drawable/wentworth" />
+
+        <LinearLayout
+            android:id="@+id/info"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/border"
+            android:layout_centerHorizontal="true"
+            android:background="#99000000"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="map"
+                android:drawableLeft="@drawable/ic_place"
+                android:drawablePadding="8dp"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:textColor="#FFF"
+                android:textColorLink="#FFF"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="phone"
+                android:drawableLeft="@drawable/ic_local_phone"
+                android:drawablePadding="8dp"
+                android:paddingBottom="8dp"
+                android:textColor="#FFF"
+                android:textColorLink="#FFF"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/website"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="web"
+                android:drawableLeft="@drawable/ic_link"
+                android:drawablePadding="8dp"
+                android:paddingBottom="8dp"
+                android:textColor="#FFF"
+                android:textColorLink="#FFF"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/more_info"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image"
+            android:layout_centerHorizontal="true"
+            android:background="#FFF"
+            android:padding="8dp"
+            android:visibility="gone" />
+    </RelativeLayout>
+</RelativeLayout>
