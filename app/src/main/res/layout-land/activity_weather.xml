@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".WeatherActivity">
+
+    <ImageView
+        android:id="@+id/charleston"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/sky"
+        android:adjustViewBounds="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Charleston, SC"
+        android:textSize="36sp"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:fontFamily="@font/clicker_script_regular"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/charleston">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingVertical="16dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weather in Charleston"
+        android:paddingBottom="16dp"
+        android:textColor="#000"
+        android:layout_gravity="center"
+        android:textSize="24dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingHorizontal="32dp"
+        android:textColor="#000"
+        android:textSize="16dp"
+        android:text="SPRING\n
+Average temperatures: 58° F (14.4° C) to 72° F (22.2° C)
+Spring is the Charleston area's most spectacular time of the year. From early March into early June, enjoy the vibrant colors of azaleas, dogwoods and other flowers in bloom.\n\n
+SUMMER\n
+Average temperatures: 78° F (25.6° C) to 82° F (27.8° C)
+The Charleston region's warm, sultry summers are punctuated by cooling coastal breezes and passing afternoon thunderstorms - all of which invite visitors to slow down, sip something refreshing and relax for a while.\n\n
+AUTUMN\n
+Average temperatures: 58° F (14.4° C) to 76° F (24.4° C)
+Autumn in the Charleston region brings with it days of bright sunshine, clear blue skies, golden marshes and perfectly crisp evenings.\n\n
+WINTER\n
+Average temperatures: 47° F (8.3° C) to 52° F (11.1° C)
+Typically mild, winters in the Charleston region are cool with periods of rain and the chance of snow flurries come late December or early January."/>
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

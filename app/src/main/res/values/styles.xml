@@ -5,7 +5,6 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="actionBarStyle">@style/appBarStyle</item>
-        <item name="android:windowContentOverlay">@null</item>
         <item name="windowActionBarOverlay">true</item>
         <item name="android:actionOverflowButtonStyle">@style/actionButtonOverflow</item>
     </style>
@@ -26,6 +25,7 @@
     <!-- Text appearance style for a category tab -->
     <style name="CategoryTabTextAppearance" parent="TextAppearance.Design.Tab">
         <item name="android:textColor">@color/tabTextSelected</item>
+        <item name="android:textSize">16sp</item>
     </style>
 
     <style name="actionButtonOverflow" parent="Widget.AppCompat.ActionButton.Overflow">

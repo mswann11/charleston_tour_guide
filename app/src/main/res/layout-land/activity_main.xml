@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:background="@color/background"
     tools:context="MainActivity">
@@ -10,15 +11,15 @@
     <ImageView
         android:id="@+id/charleston"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:background="#56c5f7"
+        android:layout_height="70dp"
+        android:background="@drawable/sky"
         android:adjustViewBounds="true"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Charleston"
-        android:textSize="24sp"
-        android:layout_marginTop="16dp"
+        android:text="Charleston, SC"
+        android:textSize="36sp"
+        android:layout_marginTop="12dp"
         android:layout_marginLeft="16dp"
         android:textColor="#000"
         android:textStyle="bold"
@@ -26,14 +27,16 @@
 
     <android.support.design.widget.TabLayout
         android:id="@+id/sliding_tabs"
-        android:layout_above="@id/viewpager"
+        android:layout_below="@id/charleston"
         style="@style/CategoryTab"
+        app:tabGravity="fill"
+        android:background="@color/colorPrimaryDark"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <android.support.v4.view.ViewPager
         android:id="@+id/viewpager"
-        android:layout_below="@id/charleston"
+        android:layout_below="@id/sliding_tabs"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 

@@ -7,7 +7,7 @@
 
     <RelativeLayout
         android:id="@+id/item"
-        android:layout_width="wrap_content"
+        android:layout_width="330dp"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:animateLayoutChanges="true"
@@ -15,7 +15,7 @@
 
         <TextView
             android:id="@+id/name"
-            android:layout_width="300dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:background="#262626"
@@ -28,7 +28,7 @@
 
         <ImageView
             android:id="@+id/border"
-            android:layout_width="300dp"
+            android:layout_width="match_parent"
             android:layout_height="0.75dp"
             android:layout_below="@id/name"
             android:layout_centerHorizontal="true"
@@ -36,7 +36,7 @@
 
         <ImageView
             android:id="@+id/image"
-            android:layout_width="300dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/border"
             android:layout_centerHorizontal="true"
@@ -45,7 +45,7 @@
 
         <LinearLayout
             android:id="@+id/info"
-            android:layout_width="300dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/border"
             android:layout_centerHorizontal="true"
@@ -85,6 +85,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:gravity="center"
                 android:autoLink="web"
                 android:drawableLeft="@drawable/ic_link"
                 android:drawablePadding="8dp"
@@ -96,7 +97,7 @@
 
         <TextView
             android:id="@+id/more_info"
-            android:layout_width="300dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/image"
             android:layout_centerHorizontal="true"

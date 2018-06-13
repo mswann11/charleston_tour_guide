@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".TransportationActivity">
+
+    <ImageView
+        android:id="@+id/charleston"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/water_small"
+        android:adjustViewBounds="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Charleston, SC"
+        android:textSize="36sp"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:fontFamily="@font/clicker_script_regular"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/charleston">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingVertical="16dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Transportation in Charleston"
+                android:paddingBottom="16dp"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:textSize="24dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingHorizontal="32dp"
+                android:textColor="#000"
+                android:textSize="16dp"
+                android:text="Transportation in Charleston"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
