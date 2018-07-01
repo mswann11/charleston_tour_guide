@@ -8,7 +8,7 @@ public class Item {
     private int mImageResourceId;
     private String mMoreInfo;
 
-    public Item(String name, String address, String phone, String website, int imageResourceId, String moreInfo){
+    public Item(String name, String address, String phone, String website, int imageResourceId, String moreInfo) {
         mName = name;
         mAddress = address;
         mPhone = phone;
@@ -17,27 +17,27 @@ public class Item {
         mMoreInfo = moreInfo;
     }
 
-    public String getName(){
+    public String getName() {
         return mName;
     }
 
-    public String getAddress(){
+    public String getAddress() {
         return mAddress;
     }
 
-    public String getPhone(){
+    public String getPhone() {
         return mPhone;
     }
 
-    public String getWebsite(){
+    public String getWebsite() {
         return mWebsite;
     }
 
-    public int getImageResourceId(){
+    public int getImageResourceId() {
         return mImageResourceId;
     }
 
-    public String getMoreInfo(){
+    public String getMoreInfo() {
         return mMoreInfo;
     }
 }

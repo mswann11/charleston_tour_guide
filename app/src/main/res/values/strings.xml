@@ -5,6 +5,164 @@
     <string name="category_stay">Stay</string>
     <string name="category_shop">Shop</string>
     <string name="category_tour">Tour</string>
-    <string name="category_go">Go</string>
-    <string name="wentworth_address">149 Wentworth Street</string>
+    <string name="charleston">Charleston, SC</string>
+    <string name="about_charleston">About Charleston</string>
+    <!-- Info from charlestoncvb.com -->
+    <string name="city">Charleston is the oldest and largest city in South Carolina.
+        It was founded in 1670 as Charles Towne in honor of King Charles II of England.
+        Charleston is known for its rich history, incredible architecture, amazing restaurants,
+        and famous southern hospitality. Charleston has received many accolades, including
+        being voted the #1 city in the United States by Conde Nast Traveler for the last
+        several years. Charleston has also been named America\'s Most Friendly City several times.
+        Southern Living Magazine calls Charleston the most polite and hospitable city in America.</string>
+    <string name="sky">Blue Sky</string>
+    <string name="homes">Charleston Homes on the Beach</string>
+    <string name="weather_in_charleston">Weather in Charleston</string>
+    <string name="seasons">SPRING\nAverage temperatures: 58°F to 72°F\nSpring is the Charleston
+        area\'s most spectacular time of the year. From early March into early June, enjoy the
+        vibrant colors of azaleas, dogwoods and other flowers in bloom.\n\nSUMMER\nAverage
+        temperatures: 78°F to 82°F\nThe Charleston region\'s warm, sultry summers are punctuated
+        by cooling coastal breezes and passing afternoon thunderstorms - all of which invite
+        visitors to slow down, sip something refreshing and relax for a while.\n\nAUTUMN\nAverage
+        temperatures: 58°F to 76°F\nAutumn in the Charleston region brings with it days of bright
+        sunshine, clear blue skies, golden marshes and perfectly crisp evenings.\n\nWINTER\nAverage
+        temperatures: 47°F to 52°F\nTypically mild, winters in the Charleston region are cool with
+        periods of rain and the chance of snow flurries come late December or early January.</string>
+    <string name="image_of_item">Image of Item</string>
+    <string name="dividing_bar">Dividing Bar</string>
+    <string name="halls">Halls Chophouse</string>
+    <string name="halls_address">434 King Street\nCharleston, SC</string>
+    <string name="halls_phone">(843) 727–0090</string>
+    <string name="halls_info">Halls Chophouse is a family steakhouse restaurant located in the
+        Upper King District of Charleston. As a premier steakhouse they use the finest freshest
+        USDA prime steaks and meat. Vegan and vegetarian dishes are specially made upon request.
+        Halls Chophouse also provides gluten free menu options and fresh sustainable local seafood
+        dishes.</string>
+    <string name="halls_website">www.hallschophouse.com</string>
+    <string name="fig">FIG</string>
+    <string name="fig_address">232 Meeting Street\nCharleston, SC</string>
+    <string name="mccradys">McCrady\'s</string>
+    <string name="mccradys_address">155 East Bay Street\nCharleston, SC</string>
+    <string name="fig_phone">(843) 805–5900</string>
+    <string name="mccradys_phone">(843) 577–0025</string>
+    <string name="fig_website">www.eatatfig.com</string>
+    <string name="mccradys_website">www.mccradysrestaurant.com</string>
+    <string name="fig_info">At the core, FIG’s menu is a labor of love. We source products with
+        integrity, flavor and soul, and incorporate these seasonal offerings into our menu nightly.
+        The result is food that is honest, straightforward and pays homage to the Lowcountry,
+        a special place we are privileged to call home.</string>
+    <string name="mccradys_info">McCrady’s is a tasting menu-only restaurant helmed by James Beard
+        Award winning Chef Sean Brock. The 22-seat space, located in historic downtown Charleston,
+        features exceptional hospitality and an open kitchen creating an intimate and adventurous
+        dining experience at South Carolina’s only AAA five diamond awarded restaurant.</string>
+    <string name="lighthouse">Morris Island Lighthouse Eco-Cruise</string>
+    <string name="waterfront">Riley Waterfront Park</string>
+    <string name="aquarium">South Carolina Aquarium</string>
+    <string name="lighthouse_address">1871 Bowens Island Road\nCharleston, SC</string>
+    <string name="waterfront_address">1 Vendue Range, Concord Street\nCharleston, SC</string>
+    <string name="aquarium_address">100 Aquarium Wharf Street\nCharleston, SC</string>
+    <string name="lighthouse_phone">(843) 795–0330</string>
+    <string name="waterfront_phone">(843) 724–7327</string>
+    <string name="aquarium_phone">(843) 577–3474</string>
+    <string name="lighthouse_website">www.charlestonoutdooradventures.com</string>
+    <string name="waterfront_website">www.charlestonparksconservancy.org/park/riley-waterfront-park</string>
+    <string name="aquarium_website">www.scaquarium.org/</string>
+    <string name="lighthouse_info">The uninhabited Morris Island makes a nice contrast to the nearby
+        city of Charleston, but Morris Island isn’t easy to get to, as it’s only accessible by boat.
+        This cruise sets sail from Bowens Island and takes you to Morris Island to spend free time
+        exploring it at your own pace before heading back. Be on the lookout for marine life, such
+        as bottlenose dolphins and sea turtles, from the boat.</string>
+    <string name="waterfront_info">Riley Waterfront Park is one of the peninsula\'s most visited
+        parks, centrally located near The Market. Finished in 1990, Waterfront Park is a favorite
+        of visitors and locals alike, offering fantastic views of the Charleston harbor.
+        Old-fashioned park benches dot the park, and family-sized swings offer a fun way to spend
+        a relaxing afternoon together.</string>
+    <string name="aquarium_info">Fun, wonder and education come together at the South Carolina
+        Aquarium. See a rare albino American alligator, get hands-on at the Touch Tank, marvel
+        at the sharks in the Great Ocean Tank, come face-to-face with rays in the Shallows, or
+        see our brand new state-of-the-art sea turtle hospital in the new Zucker Family Sea Turtle
+        Recovery experience.</string>
+    <string name="farmers">Charleston Farmers Market</string>
+    <string name="market">Historic City Market</string>
+    <string name="shops">Shops at Charleston Place</string>
+    <string name="farmers_address">Marion Square\n329 Meeting Street\nCharleston, SC</string>
+    <string name="market_address">188 Meeting Street\nCharleston, SC</string>
+    <string name="shops_address">205 Meeting Street\nCharleston, SC 29401</string>
+    <string name="farmers_phone">(843) 509–3619</string>
+    <string name="market_phone">(843) 937–0920</string>
+    <string name="shops_phone">(888) 722–4900</string>
+    <string name="farmers_website">www.charlestonfarmersmarket.com</string>
+    <string name="market_website">www.thecharlestoncitymarket.com</string>
+    <string name="shops_website">www.charlestonplaceshops.com</string>
+    <string name="farmers_info">The CFM is dedicated to the support and advocacy of Lowcountry
+        farmers, growers, prepared/packaged food, artisans, crafters, live performers and community
+        groups of all kinds. We offer a variety of local produce, plants, herbs and cut flowers as
+        well as breakfast and lunch vendors, live entertainment and an assortment of juried arts
+        and crafts from local artisans.</string>
+    <string name="market_info">The Charleston City Market is one of the nation\'s oldest public
+        markets and the cultural heart of Charleston. We are home to more than 300 vibrant
+        entrepreneurs, and we are open every day of the year except December 25th. No matter what
+        time of day or season you plan to visit, there is something to see, do, taste, and take
+        home as a souvenir from the Charleston City Market!</string>
+    <string name="shops_info">From L\'Occitane to Louis Vuitton, The Shops at Belmond Charleston
+        Place are an exclusive collection of world-famous stores nestled in the heart of
+        Charleston\'s downtown shopping district. There\'s something for everyone. Go ahead and
+        treat yourself.</string>
+    <string name="francis">Francis Marion Hotel</string>
+    <string name="pavilion">Market Pavilion Hotel</string>
+    <string name="wentworth">Wentworth Mansion</string>
+    <string name="francis_address">387 King Street\nCharleston, SC</string>
+    <string name="pavilion_address">225 East Bay Street\nCharleston, SC</string>
+    <string name="wentworth_address">149 Wentworth Street\nCharleston, SC 29401</string>
+    <string name="francis_phone">(843) 722–0600</string>
+    <string name="pavilion_phone">(843) 723–0500</string>
+    <string name="wentworth_phone">(888) 466–1886</string>
+    <string name="francis_website">www.francismarionhotel.com</string>
+    <string name="pavilion_website">www.marketpavilion.com</string>
+    <string name="wentworth_website">www.wentworthmansion.com</string>
+    <string name="francis_info">Built in 1924 and meticulously restored, The Francis Marion Hotel
+        features 1920\'s styled décor and comforting amenities. Diners can dig into a plate of
+        shrimp, grits, and other Southern delights at The Swamp Fox Restaurant and Bar. Guests can
+        work out at the fitness center, and drop by Spa Adagio for a massage, facial, mud wrap,
+        and one of the other therapeutic treatments on offer.</string>
+    <string name="pavilion_info">Located in the heart of Charleston, this family-friendly hotel
+        is within walking distance of many top and historic attractions. Along with 2 restaurants,
+        this smoke-free hotel has an outdoor pool and 2 bars/lounges. Free continental breakfast
+        and free WiFi in public areas are also provided. Additionally, a 24-hour fitness center,
+        a poolside bar, and a rooftop terrace are onsite.</string>
+    <string name="wentworth_info">A full-service spa, a restaurant, and a bar/lounge are available
+        at this hotel. Free cooked-to-order breakfast is provided, as well as free WiFi in public
+        areas. Other amenities include a rooftop terrace and massage/treatment rooms. All 21
+        individually decorated rooms feature free WiFi and iPod docks. In addition to upscale
+        touches like fireplaces and jetted tubs, guests will find flat-screen TVs with cable
+        channels and refrigerators.</string>
+    <string name="carriage">Carriage Tour of Historic Charleston</string>
+    <string name="culinary">Downtown Charleston Culinary Tour</string>
+    <string name="ghost">Ghost City Tours of Charleston</string>
+    <string name="carriage_address">8 Guignard Street\nCharleston, SC</string>
+    <string name="culinary_address">460 King Street, Suite 200\nCharleston, SC</string>
+    <string name="ghost_address">1 Vendue Range, Concord Street\nCharleston, SC 29401</string>
+    <string name="carriage_phone">(843) 853–6125</string>
+    <string name="culinary_phone">(843) 259–2966</string>
+    <string name="ghost_phone">(888) 859–5375</string>
+    <string name="carriage_website">www.palmettocarriage.com</string>
+    <string name="culinary_website">www.charlestonculinarytours.com</string>
+    <string name="ghost_website">www.ghostcitytours.com/charleston</string>
+    <string name="carriage_info">Established in 1972, Palmetto Carriage Works is the oldest
+        carriage company in historic Charleston, SC. Still family-owned and operated, the
+        company offers guided horse and mule-drawn tours of Charleston\'s downtown and
+        residential historic district for the thousands of visitors hoping to take in the
+        charm and history of the city in a more authentic way.</string>
+    <string name="culinary_info">Charleston Culinary Tours combine the best of Charleston history,
+        cocktails and food with unique tours that highlight the Lowcountry. On each tour, you
+        will not only have an opportunity to sample some of the Lowcountry\'s finest offerings,
+        but also to meet the owners, chefs and mixologists behind Charleston\'s impressive culinary
+        and bar innovations.</string>
+    <string name="ghost_info">Here at Ghost City, we are proud to offer our ghost tours in South
+        Carolina\'s most haunted city! Our Charleston Ghost Tours take you to the most haunted
+        locations in the downtown area of Charleston. You\'ll hear the stories of Charleston\'s
+        haunted history while standing in the very places these haunting events take place.</string>
+    <string name="explore">Explore</string>
+    <string name="about">About</string>
+    <string name="weather">Weather</string>
 </resources>

@@ -5,6 +5,6 @@
     android:layout_height="match_parent"
     android:background="@color/background"
     android:divider="@null"
-    android:dividerHeight="0dp"
+    android:dividerHeight="@dimen/height_divider"
     android:drawSelectorOnTop="true"
-    android:paddingTop="16dp" />
+    android:paddingTop="@dimen/padding_top" />

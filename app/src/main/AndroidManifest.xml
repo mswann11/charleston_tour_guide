@@ -2,12 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.android.charlestontourguide">
 
-    <!-- Todo: Add in data -->
-    <!-- Todo: Change icon -->
-    <!-- Todo: Add comments -->
-    <!-- Todo: Check for dp/sp/# values -->
-    <!-- Todo: Check for strings -->
-    <!-- Todo: Reformat code -->
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -23,8 +17,6 @@
         </activity>
         <activity android:name=".WeatherActivity" />
         <activity android:name=".AboutActivity" />
-        <activity android:name=".TransportationActivity" />
-        <activity android:name=".HistoryActivity"></activity>
     </application>
 
 </manifest>

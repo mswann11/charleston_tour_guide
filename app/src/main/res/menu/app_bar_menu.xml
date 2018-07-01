@@ -4,27 +4,18 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/home"
-        android:title="Home"
+        android:id="@+id/explore"
+        android:title="@string/explore"
         app:showAsAction="never" />
 
     <item
         android:id="@+id/about"
-        android:title="About"
-        app:showAsAction="never" />
-
-    <item
-        android:id="@+id/history"
-        android:title="History"
+        android:title="@string/about"
         app:showAsAction="never" />
 
     <item
         android:id="@+id/weather"
-        android:title="Weather"
+        android:title="@string/weather"
         app:showAsAction="never" />
 
-    <item
-        android:id="@+id/transportation"
-        android:title="Transportation"
-        app:showAsAction="never" />
 </menu>

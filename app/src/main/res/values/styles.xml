@@ -4,14 +4,15 @@
     <style name="AppTheme" parent="Theme.AppCompat.DayNight">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="actionBarStyle">@style/appBarStyle</item>
+        <item name="actionBarStyle">@style/actionBarStyle</item>
         <item name="windowActionBarOverlay">true</item>
         <item name="android:actionOverflowButtonStyle">@style/actionButtonOverflow</item>
     </style>
 
-    <style name="appBarStyle" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+    <style name="actionBarStyle" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
         <!-- Remove the shadow below the app bar -->
         <item name="elevation">0dp</item>
+        <item name="background">@null</item>
     </style>
 
     <!-- Style for a tab that displays a category name -->

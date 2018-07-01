@@ -2,6 +2,7 @@ package com.example.android.charlestontourguide;
 
 import android.app.Activity;
 import android.graphics.drawable.Drawable;
+import android.support.annotation.NonNull;
 import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -20,16 +21,17 @@ import java.util.ArrayList;
 
 public class ItemAdapter extends ArrayAdapter<Item> {
 
-    boolean isVisible = false;
+    private boolean isVisible = false;
 
     public ItemAdapter(Activity context, ArrayList<Item> itemArrayList) {
         super(context, 0, itemArrayList);
     }
 
+    @NonNull
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         View listItemView = convertView;
-        if(listItemView == null) {
+        if (listItemView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(
                     R.layout.list_item, parent, false);
         }
@@ -60,13 +62,13 @@ public class ItemAdapter extends ArrayAdapter<Item> {
         item.setOnClickListener(new AdapterView.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(isVisible) {
+                if (isVisible) {
                     name.setCompoundDrawablesWithIntrinsicBounds(null, null, expandMore, null);
                     info.animate().translationY(0);
                     info.setVisibility(View.GONE);
                     moreInfo.setVisibility(View.GONE);
                     isVisible = false;
-                } else{
+                } else {
                     name.setCompoundDrawablesWithIntrinsicBounds(null, null, expandLess, null);
                     info.setVisibility(View.VISIBLE);
                     info.animate().translationY(100);

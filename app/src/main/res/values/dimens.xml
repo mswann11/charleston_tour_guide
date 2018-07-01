@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_top">12dp</dimen>
+    <dimen name="margin_left">16dp</dimen>
+    <dimen name="text_size_title">36sp</dimen>
+    <dimen name="height_sky">70dp</dimen>
+    <dimen name="padding_top">16dp</dimen>
+    <dimen name="padding_bottom">16dp</dimen>
+    <dimen name="text_size_header">24sp</dimen>
+    <dimen name="padding_paragraph">32dp</dimen>
+    <dimen name="text_size_info">16sp</dimen>
+    <dimen name="height_divider">0dp</dimen>
+    <dimen name="margin_top_list">24dp</dimen>
+    <dimen name="padding_bar">8dp</dimen>
+    <dimen name="text_size_bar">18sp</dimen>
+    <dimen name="padding_info_box">8dp</dimen>
+    <dimen name="text_size_info_box">16sp</dimen>
+    <dimen name="width_item">330dp</dimen>
+    <dimen name="height_item_divider">0.75dp</dimen>
+</resources>

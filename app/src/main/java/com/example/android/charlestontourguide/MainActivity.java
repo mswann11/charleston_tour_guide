@@ -11,11 +11,15 @@ import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity {
 
+    /**
+     * Inflate the menu.
+     */
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.app_bar_menu, menu);
         return true;
     }
+
     /**
      * Set intent for each option in the menu.
      */
@@ -27,9 +31,9 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(weatherIntent);
                 return true;
 
-            case R.id.home:
-                Intent homeIntent = new Intent(MainActivity.this, MainActivity.class);
-                startActivity(homeIntent);
+            case R.id.explore:
+                Intent exploreIntent = new Intent(MainActivity.this, MainActivity.class);
+                startActivity(exploreIntent);
                 return true;
 
             case R.id.about:
@@ -37,21 +41,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(aboutIntent);
                 return true;
 
-            case R.id.history:
-                Intent historyIntent = new Intent(MainActivity.this, HistoryActivity.class);
-                startActivity(historyIntent);
-                return true;
-
-            case R.id.transportation:
-                Intent transportationIntent = new Intent(MainActivity.this, TransportationActivity.class);
-                startActivity(transportationIntent);
-                return true;
-
             default:
                 return super.onOptionsItemSelected(item);
 
         }
     }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
